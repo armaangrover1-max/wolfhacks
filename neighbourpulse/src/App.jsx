@@ -8,6 +8,7 @@ import AIPage from "./pages/AIPage";
 import SensorsPage from "./pages/SensorsPage";
 import Navigation from "./components/Navigation";
 import { BASE_WARDS, computeSurgeWard } from "./data/wards";
+import './App.css';
 
 export default function App() {
   const [screen, setScreen] = useState("landing");
